@@ -108,6 +108,7 @@ window.title("Bleach per Inch calc")
 #Window widgets
 ounce_label = Label(window, text=f"Bleach oz: 0.0", font=("", 30, "bold"), relief=RAISED, border=4, bg="#e4fcff", width=13)
 ounce_label.pack()
+Label(window,text=f"Enter numbers in inches!", font=("", 7, "bold"), relief=RAISED, border=4, bg="#e4fcff", width=40).pack()
 
 Label(window,bg="#e4fcff",relief=RAISED,border=2,text="Choose a Shape!\nRectangle or Cylinder:",font=("",10,"bold")).pack()
 
